@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&family=Press+Start+2P&family=Roboto:wght@100;400&display=swap');
 
 *{
@@ -238,4 +239,246 @@ header{
     }
 
     
+=======
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&family=Press+Start+2P&family=Roboto:wght@100;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+body{
+    background-color: white;
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/******************* HEADER ****************/
+header{
+    position: fixed;
+    top: 0;
+    width: inherit;
+    max-width: inherit;
+    padding: 30px 30px;
+    background-color: white;
+    z-index: 999;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.name-container{
+    border-bottom: 1px solid gray;
+}
+
+.skills{
+    text-align: right;
+}
+
+
+.name{
+    font-size: 30px;
+}
+
+.subtitle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.personal-links{
+    display: flex;
+}
+
+.personal-links *{
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+/******************* EMAIL TOOLTIP ****************/
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 0.8rem;
+    bottom: 150%;
+    left: -40%;
+    margin-left: -70px;
+  }
+  
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }
+
+/************** PROJECTS CONTAINER ****************/
+.projects-container{
+    padding-top: 200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.project{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: relative;
+    border-radius: 5px;
+    margin: 20px;
+    width: 300px;
+    height: 450px;
+}
+
+.project .icon{
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.project-img{
+    height: 255px;
+    display: flex;
+    justify-content: center;
+}
+
+.project-img img{
+    width: 250px;
+    height: 235px;
+    object-fit: contain;
+}
+
+.project:hover{
+    transform: scale(1.05);
+    border: 2px solid gray;
+}
+
+/************* Project Info ***************/
+.project-info{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 150px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    padding: 5px 5px 0px 5px;
+    background-color: #d4d6d8;
+}
+
+
+.project-name{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.additional-info{
+    display: block;
+    font-weight: normal;
+    font-size: 0.9rem;
+}
+
+.project-stack{
+    font-weight: normal;
+    font-size: 1rem;
+    margin-top: 10px;
+    overflow-wrap:break-word;
+}
+
+.project-links{
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    right: 0px;
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.project-links a{
+    color: gray;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.project-links a:hover{
+    color: green;
+    font-weight: bold;
+}
+
+
+/***** Media query *****/
+@media (max-width:700px){
+    header{
+        text-align: center;
+    }
+
+    .subtitle{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .personal-links{
+        margin-top: 10px;
+    }
+
+    .personal-links *{
+        margin: 0px 10px;
+    }
+
+
+    .skills{
+        text-align: center;
+    }
+
+    .projects-container{
+        padding-top: 250px;
+    }
+
+    .project-group-header{
+        justify-content: center;
+    }
+
+    .projects{
+        grid-template-columns: 1fr;
+    }
+
+    .projects *{
+        margin: auto;
+    }
+    
+    .project{
+        width: 350px;
+        margin-bottom: 30px;
+    }
+
+    
+>>>>>>> 55067b9caa5d7d0f4efc3c33c049bf4c6947affe
 }

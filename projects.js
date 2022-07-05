@@ -24,7 +24,7 @@ const projects = [
         stack:["React", " Firebase Realtime Database", " JavaScript", " HTML", " CSS"],
         image: "./images/cover-mood-tracker.PNG",
         demo:"",
-        github:""
+        github:"https://github.com/ssu526/mood-calendar"
     },
     {
         icon: "./images/icon_react.svg",
@@ -33,7 +33,7 @@ const projects = [
         stack:["React", " JavaScript", " HTML", " CSS"],
         image: "./images/cover-mac-notes.PNG",
         demo:"",
-        github:""
+        github:"https://github.com/ssu526/mac_notes_clone"
     },
     {
         icon: "./images/icon_js.svg",

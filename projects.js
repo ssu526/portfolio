@@ -42,7 +42,7 @@ const projects = [
         stack:["JavaScript", " Socket.IO", " HTML", " CSS"],
         image: "./images/cover-chinese-checker.PNG",
         demo:"",
-        github:""
+        github:"https://github.com/ssu526/game_chinese_checker"
     }, 
     {
         icon: "./images/icon_js.svg",

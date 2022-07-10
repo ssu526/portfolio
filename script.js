@@ -12,8 +12,9 @@ projects.forEach(project => {
                         <div class="project-name">${project.projectName}<span class="additional-info">${project.additionalInfo}</span>
                         <div class="project-stack">${project.stack}</div>
                         <div class="project-links">
-                            <a target="_blank" href="${project.demo}">Demo</a>
-                            <a target="_blank" href="${project.github}">Github</a>
+                            <a target="_blank" class="${project.video===""? "hide":""}" href="${project.video}">Video Demo</a>
+                            <a target="_blank" class="${project.live===""? "hide":""}" href="${project.live}">Live Demo</a>
+                            <a target="_blank" class="${project.code===""? "hide":""}" href="${project.code}">Code</a>
                         </div>
                     </div>
                 </div>

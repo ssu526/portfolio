@@ -11,8 +11,12 @@
 body{
     background-color: white;
     width: 100%;
-    max-width: 1100px;
+    max-width: 1200px;
     margin: auto;
+}
+
+.hide{
+    display: none;
 }
 
 /******************* HEADER ****************/
@@ -97,41 +101,40 @@ header{
 
 /************** PROJECTS CONTAINER ****************/
 .projects-container{
-    padding-top: 200px;
-    padding-left: 30px;
-    padding-right: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 100px;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .project{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    position: relative;
-    border-radius: 5px;
     margin: 20px;
-    width: 300px;
-    height: 450px;
+    position: relative;
+    width: 350px;
+    height: 500px;
 }
 
 .project .icon{
     width: 25px;
     height: 25px;
-    margin-top: 10px;
-    margin-left: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
 }
 
 .project-img{
-    height: 255px;
-    display: flex;
-    justify-content: center;
+    height: 350px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .project-img img{
-    width: 250px;
-    height: 235px;
+    width: 300px;
+    height: 300px;
     object-fit: contain;
+    display: block;
+    margin: auto;
 }
 
 .project:hover{
@@ -141,17 +144,16 @@ header{
 
 /************* Project Info ***************/
 .project-info{
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
     height: 150px;
     width: 100%;
     position: absolute;
     bottom: 0px;
     text-align: center;
     padding: 5px 5px 0px 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
     background-color: #d4d6d8;
 }
-
 
 .project-name{
     font-size: 1.2rem;
@@ -192,7 +194,7 @@ header{
 }
 
 
-/***** Media query *****/
+/*************** Media query ***************/
 @media (max-width:700px){
     header{
         text-align: center;
@@ -236,6 +238,4 @@ header{
         width: 350px;
         margin-bottom: 30px;
     }
-
-    
 }

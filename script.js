@@ -14,7 +14,7 @@ projects.forEach(project => {
                         <div class="project-links">
                             <a target="_blank" class="${project.video===""? "hide":""}" href="${project.video}">Video Demo</a>
                             <a target="_blank" class="${project.live===""? "hide":""}" href="${project.live}">Live Demo</a>
-                            <a target="_blank" class="${project.code===""? "hide":""}" href="${project.code}">Code</a>
+                            <a target="_blank" class="${project.code===""? "hide":""}" href="${project.code}">Source Code</a>
                         </div>
                     </div>
                 </div>

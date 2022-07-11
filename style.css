@@ -11,7 +11,7 @@
 body{
     background-color: white;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: auto;
 }
 
@@ -112,8 +112,8 @@ header{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin: 20px;
     position: relative;
-    width: 350px;
-    height: 500px;
+    width: 370px;
+    height: 520px;
 }
 
 .project .icon{
@@ -144,7 +144,7 @@ header{
 
 /************* Project Info ***************/
 .project-info{
-    height: 150px;
+    height: 170px;
     width: 100%;
     position: absolute;
     bottom: 0px;

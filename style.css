@@ -173,7 +173,7 @@ header{
 
 .project-links{
     position: absolute;
-    bottom: 5px;
+    bottom: 10px;
     left: 0px;
     right: 0px;
     font-weight: normal;
@@ -183,12 +183,13 @@ header{
 .project-links a{
     color: gray;
     text-decoration: none;
-    margin: 10px;
+    padding: 5px 10px;
 }
 
 .project-links a:hover{
-    color: green;
-    font-weight: bold;
+    color: white;
+    background-color: rgb(63, 133, 63);
+    border-radius: 10px;
 }
 
 

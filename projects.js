@@ -16,9 +16,9 @@ const projects = [
         additionalInfo: "",
         stack:["Spring Boot", " Java", " JavaScript", " Thymeleaf", " HTML", " CSS"],
         image: "./images/cover-family-feud.PNG",
-        video:"",
-        live:"",
-        code:"",
+        video:"https://www.youtube.com/watch?v=KWGfK9E82XY",
+        live:"https://family-feud-quiz-game.herokuapp.com/",
+        code:"https://github.com/ssu526/family-feud",
         date: "2022-07"
     },
     {
@@ -27,7 +27,7 @@ const projects = [
         additionalInfo: "(2-6 players)",
         stack:["JavaScript", " Socket.IO", " HTML", " CSS"],
         image: "./images/cover-chinese-checker.PNG",
-        video:"",
+        video:"https://www.youtube.com/watch?v=bcEzLUwJJEc",
         live:"",
         code:"https://github.com/ssu526/game_chinese_checker",
         date: "2022-06"
